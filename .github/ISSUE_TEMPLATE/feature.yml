@@ -1,0 +1,31 @@
+name: ✨ Feature / melhoria
+description: Proponha algo novo ou uma melhoria
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema isso resolve?
+      description: Comece pelo problema ou pela necessidade do usuário, não pela solução.
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: Como você imagina a solução? Links, rascunhos e telas do Figma ajudam.
+    validations:
+      required: true
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceite
+      placeholder: |
+        - [ ] Dado ..., quando ..., então ...
+        - [ ] ...
+  - type: textarea
+    id: fora-de-escopo
+    attributes:
+      label: Fora de escopo
+      description: O que conscientemente NÃO entra agora.
